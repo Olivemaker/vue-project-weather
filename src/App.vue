@@ -25,10 +25,10 @@ export default {
     return "Ощущается как:" + this.info.main.feels_like
   },
   tempMin(){
-    return "Минимальная температура:" + this.info.main.temp_min
+    return "Мин. температура:" + this.info.main.temp_min
   },
   tempMax(){
-    return "Максимальная температура:" + this.info.main.temp_max
+    return "Макс. температура:" + this.info.main.temp_max
   },
   pressure(){
     return "Давление:" + this.info.main.pressure
@@ -143,6 +143,6 @@ button:disabled{
 .weather{
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  gap: 0 30px;
+  gap: 0 10px;
 }
 </style>
